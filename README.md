@@ -7,6 +7,31 @@
  <a href="https://t.me/SlavicDevelopment" rel="nofollow"><img src="https://camo.githubusercontent.com/920d7fe0c9857887e8c72aedff3a636ec27b68fc7ee37a6a7a5f75c4b91f09e6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666c61742d737175617265266d6573736167653d74656c656772616d26636f6c6f723d323641354534266c6f676f3d54656c656772616d266c6f676f436f6c6f723d464646464646266c6162656c3d" alt="telegram" data-canonical-src="https://img.shields.io/static/v1?style=flat-square&amp;message=telegram&amp;color=26A5E4&amp;logo=Telegram&amp;logoColor=FFFFFF&amp;label=" style="max-width: 100%;"></a>
 </div>
 </div>
+
+```
+final class MyProfile
+{
+    public function show(): void
+    {
+        $profile = new DeveloperProfile([
+            'name' => '🧑‍💻 Dmitrii Meshkov',
+            'location' => '📍 Toronto, Canada',
+            'role' => '💼 Full-Stack Web Developer',
+            'experience' => '📅 5+ years of experience in building and maintaining web applications',
+            'skills' => [
+                'Frontend Development' => ['⚛️ React', '🔄 Redux', '⚡ Vite', '📜 JavaScript', '⌨️ TypeScript'],
+                'Backend Development' => ['🐘 PHP', '🌐 Laravel', '🐍 Python', '🧩 Django'],
+                'Databases' => ['🐘 PostgreSQL', '🐬 MySQL', '💽 MSSQL'],
+                'DevOps & Tools' => ['🚀 GitLab CI/CD', '🐳 Docker', '☁️ Azure', '🔐 LDAP', '🏢 Active Directory'],
+                'Automation & Scripting' => ['📜 PowerShell', '🐚 Bash'],
+            ],
+            'softSkills' => ['🧩 Problem Solving', '🤝 Team Collaboration', '🔄 Adaptability', '🚀 Efficiency Optimization'],
+        ]);
+        echo json_encode($profile, JSON_PRETTY_PRINT);
+    }
+}
+
+```
 <!--
 **Takechico/Takechico** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
