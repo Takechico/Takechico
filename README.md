@@ -19,7 +19,7 @@ final class MyProfile
             'experience' => '📅 5+ years of experience in building and maintaining web applications',
             'skills' => [
                 'Frontend Development' => ['⚛️ React', '🔄 Redux', '⚡ Vite', '📜 JavaScript', '⌨️ TypeScript'],
-                'Backend Development' => ['🐘 PHP', '🌐 Laravel', '🐍 Python', '🧩 Django'],
+                'Backend Development' => ['🐘 PHP', '🌐 Laravel', '🐍 Python', '🧩 Django', '🚀 Express'],
                 'Databases' => ['🐘 PostgreSQL', '🐬 MySQL', '💽 MSSQL'],
                 'DevOps & Tools' => ['🚀 GitLab CI/CD', '🐳 Docker', '☁️ Azure', '🔐 LDAP', '🏢 Active Directory'],
                 'Automation & Scripting' => ['📜 PowerShell', '🐚 Bash'],
